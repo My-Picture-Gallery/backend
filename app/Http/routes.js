@@ -18,3 +18,9 @@
 const Route = use('Route')
 
 Route.on('/').render('welcome')
+
+Route.get('/images', 'ImageController.showGallery'); 
+Route.post('/images', 'ImageController.create'); 
+
+Route.get('/image/:id', 'ImageController.showImageById'); 
+Route.put('/image/:id/likeCount', 'ImageController.updateLikeCount'); 
