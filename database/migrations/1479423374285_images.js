@@ -4,13 +4,13 @@ const Schema = use('Schema')
 
 class ImagesTableSchema extends Schema {
 
-  up () {
+    up () {
     this.create('images', (table) => {
       table.increments()
       table.timestamps()
       table.string('url')
       table.string('description')
-      table.string('likeCount')
+      table.integer('likeCount')
     })
   }
 
