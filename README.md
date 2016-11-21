@@ -18,12 +18,16 @@ Each image record contains:
 # Routes
 
 ## GET /images
+https://boiling-springs-57482.herokuapp.com/images
 
 ## POST /images
+https://boiling-springs-57482.herokuapp.com/images
 
 ## GET /image/:id
+https://boiling-springs-57482.herokuapp.com/image/:id
 
 ## PUT /image/:id/likeCount
+https://boiling-springs-57482.herokuapp.com/image/:id/likeCount
 
 
 
